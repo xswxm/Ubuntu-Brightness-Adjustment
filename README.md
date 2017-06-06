@@ -1,7 +1,6 @@
 # Ubuntu Brightness Adjustment
 It is a bash script for adjusting brightness for both your keyboard and screen.
 
-
 ### Setting Up
 Edit the script. The existing file locations are for Asus ux303 running Ubuntu 16.04 so you may have to replace the path to yours.
 ```sh
@@ -32,11 +31,10 @@ USERNAME ALL=(root) NOPASSWD: /usr/local/bin/brightness
 ```
 Save it and you are ready to go
 
-
 ### How to Use
 Open System Settings - Keyboard - Shortcuts and add your commands
-Example commands:
 ```sh
+# Example commands
 # Set the the value keyboard brightness to 0
 sudo brightness -k -set 0
 # Increase keyboard brightness by 1
